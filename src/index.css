@@ -1,0 +1,19 @@
+/* Custom Background Color for Login */
+.bg-dark-gray {
+  background-color: #343541 !important;
+}
+
+/* Additional Styling for Mobile */
+@media (max-width: 767px) {
+  .img-fluid {
+    max-height: 150px; /* Adjust image size for small screens */
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+
+  .btn-outline-primary {
+    font-size: 14px;
+  }
+}
